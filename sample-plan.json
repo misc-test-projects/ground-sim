@@ -1,0 +1,8 @@
+{
+  "id": "plan-001",
+  "version": 1,
+  "window_start": "2025-10-02T00:00:00Z",
+  "window_end": "2025-10-02T02:00:00Z",
+  "resources": [{"name":"radar-a","capacity":1},{"name":"comm-link-1","capacity":2}],
+  "constraints": {"min_separation_minutes": 5}
+}

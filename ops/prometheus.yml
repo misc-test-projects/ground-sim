@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 5s
+scrape_configs:
+  - job_name: 'planner_api'
+    static_configs:
+      - targets: ['planner_api:8080']
+  - job_name: 'tfcc_worker'
+    static_configs:
+      - targets: ['tfcc_worker:8001']

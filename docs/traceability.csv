@@ -1,0 +1,7 @@
+REQ_ID,DESCRIPTION,MODULE,TEST_ID,ARTIFACT_PATH
+REQ-001,Accept versioned mission plans,entrypoints/planner_api,UT-API-ACCEPT,reports/junit.xml
+REQ-002,Validate time windows/resources,core/use_cases,UT-VALIDATE,reports/junit.xml
+REQ-003,Publish created event,adapters/kafka_client,IT-PRODUCE,logs/planner_api.log
+REQ-004,Verify plans and emit verdict,entrypoints/tfcc_worker,IT-CONSUME,logs/tfcc_worker.log
+REQ-005,Retries & DLQ,entrypoints/tfcc_worker,IT-DLQ,reports/junit.xml
+REQ-006,Prometheus metrics,adapters/telemetry,IT-METRICS,artifacts/dashboards.json

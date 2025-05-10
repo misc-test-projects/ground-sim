@@ -1,0 +1,23 @@
+{
+  "title": "Planner/TFCC Overview",
+  "panels": [
+    {
+      "type": "graph",
+      "title": "Planner Requests",
+      "targets": [
+        {
+          "expr": "planner_requests_total"
+        }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "TFCC Processed",
+      "targets": [
+        {
+          "expr": "sum(tfcc_processed_total)"
+        }
+      ]
+    }
+  ]
+}
